@@ -20,4 +20,4 @@ Facilidad de uso: Las aplicaciones autenticadoras son muy intuitivas y fáciles 
 Amplia compatibilidad: La mayoría de los servicios en línea ofrecen esta opción de seguridad.
 En resumen, la autenticación de dos factores con una aplicación autenticadora es una herramienta muy útil para proteger tus cuentas en línea. Al agregar un segundo factor de autenticación, haces que sea mucho más difícil para los hackers acceder a tu información personal.
 
-mnt /efs efs -
+mnt /efs efs -nrtdev
