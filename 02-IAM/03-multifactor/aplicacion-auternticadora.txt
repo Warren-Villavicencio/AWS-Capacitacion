@@ -21,4 +21,4 @@ Amplia compatibilidad: La mayoría de los servicios en línea ofrecen esta opci�
 En resumen, la autenticación de dos factores con una aplicación autenticadora es una herramienta muy útil para proteger tus cuentas en línea. Al agregar un segundo factor de autenticación, haces que sea mucho más difícil para los hackers acceder a tu información personal.
 
 fs-097fc69a0a40c3a2b:/ /mnt /efs efs _netdev 0 0
-fs-097fc69a0a40c3a2b:/ /efs w efs _netdev 0 0
+fs-097fc69a0a40c3a2b:/ /efs web efs _netdev 0 0
