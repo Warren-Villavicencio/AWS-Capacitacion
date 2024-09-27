@@ -1,0 +1,21 @@
+# INSTANCIA A
+df -k
+sudo mkdir -p /efs/wp-content
+sudo dnf -y install amazon-efs-utils
+cd /etc
+sudo vi /etc/fstab
+file-system-id:/ /efs/wp-content efs _netdev 0 0 
+sudo mount /efs/wp-content
+df -k
+cd /efs/wp-content
+sudo touch demoefs.txt
+
+# INSTANCIA B
+df -k
+sudo dnf -y install amazon-efs-utils
+sudo mkdir -p /efs/wp-content
+sudo vi /etc/fstab
+file-system-id:/ /efs/wp-content efs _netdev 0 0
+sudo mount /efs/wp-content
+ls -la
+df -k

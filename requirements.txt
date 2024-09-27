@@ -1,0 +1,2 @@
+GitPython==3.1.30
+watchdog==2.3.1

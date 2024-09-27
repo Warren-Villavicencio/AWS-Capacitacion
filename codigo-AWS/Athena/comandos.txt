@@ -1,0 +1,34 @@
+# Crear la base de datos en Athena
+CREATE DATABASE BLOCKSTELLART;
+
+# Crear la tabla en la base de datos de Athena
+CREATE EXTERNAL TABLE planet (
+  id BIGINT,
+  type STRING,
+  tags MAP<STRING,STRING>,
+  lat DECIMAL(9,7),
+  lon DECIMAL(10,7),
+  nds ARRAY<STRUCT<ref: BIGINT>>,
+  members ARRAY<STRUCT<type: STRING, ref: BIGINT, role: STRING>>,
+  changeset BIGINT,
+  timestamp TIMESTAMP,
+  uid BIGINT,
+  user STRING,
+  version BIGINT
+)
+STORED AS ORCFILE
+LOCATION 's3://osm-pds/planet/';
+
+# Consulta de prueba
+SELECT * FROM planet LIMIT 100;
+
+# Consulta de localización
+SELECT * FROM planet
+WHERE type = 'node'
+  AND tags['amenity'] IN ('veterinary')
+  AND lat BETWEEN -27.8 AND -27.3
+  AND lon BETWEEN 152.2 AND 153.5;
+
+# Eliminar tabla y base de datos
+drop table planet;
+drop database BLOCKSTELLART;

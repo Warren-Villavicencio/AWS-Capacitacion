@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Auto Git Commit",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/auto_git_commit.py"
+            ],
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}

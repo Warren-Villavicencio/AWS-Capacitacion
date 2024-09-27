@@ -1,0 +1,17 @@
+# Respaldo de la base de datos fuente
+mysqldump -h PRIVATEIPOFMARIADBINSTANCE -u sacwordpress -p sacwordpress > sacwordpress.sql
+
+# Restaurar en la base de datos destino
+mysql -h CNAMEOFRDSINSTANCE -u sacwordpress -p sacwordpress < sacwordpress.sql 
+
+# Cambiar la Configuración de WP
+cd /var/www/html
+sudo vi wp-config.php
+
+reemplazar:
+/** Hostname de MySQL */
+define('DB_HOST', 'PRIVATEIPOFMARIADBINSTANCE');
+
+con:
+/** Hostname de MySQL */
+define('DB_HOST', 'REMPLAZA_POR_RDSINSTANCEENDPOINTADDRESS'); 
