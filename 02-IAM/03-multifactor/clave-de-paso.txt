@@ -1,0 +1,22 @@
+¿Qué es una clave de paso o clave de seguridad?
+
+Es un método de autenticación que utiliza características únicas de tu cuerpo (como tu huella digital o rostro) o un dispositivo físico (como una llave de seguridad) para verificar tu identidad. En lugar de recordar una contraseña compleja, simplemente utilizas tu huella, rostro o la llave para acceder a tus cuentas.
+
+¿Para qué sirve?
+
+Mayor seguridad: Las claves de paso y las claves de seguridad son mucho más difíciles de hackear que las contraseñas, ya que tus características biométricas o el dispositivo físico son únicos para ti.
+Más comodidad: Olvídate de tener que recordar largas y complicadas contraseñas. Con un simple gesto o utilizando tu llave, puedes acceder a tus cuentas de forma rápida y sencilla.
+Protección contra el phishing: El phishing es una técnica utilizada por los ciberdelincuentes para robar tus datos personales. Al utilizar claves de paso o claves de seguridad, reduces el riesgo de caer en estas estafas.
+Ejemplos de cómo aplicarlas:
+
+Desbloqueo de tu teléfono: En lugar de introducir un PIN o una contraseña, puedes utilizar tu huella digital o reconocimiento facial para desbloquear tu smartphone.
+Acceso a aplicaciones bancarias: Muchas aplicaciones bancarias permiten utilizar la autenticación biométrica para realizar transacciones de forma más segura.
+Inicio de sesión en servicios en la nube: Plataformas como Google Drive o Dropbox te permiten utilizar claves de seguridad para proteger tus archivos.
+Acceso a redes Wi-Fi públicas: Algunas redes Wi-Fi públicas requieren autenticación adicional. Puedes utilizar una clave de seguridad para conectarte de forma más segura.
+¿Qué es una clave de seguridad FIDO2?
+
+Es un tipo específico de clave de seguridad que cumple con los estándares FIDO (Fast Identity Online). Estas claves son dispositivos físicos pequeños que se conectan a tu ordenador o dispositivo móvil a través de USB o Bluetooth. Son muy seguras y fáciles de usar.
+
+En resumen:
+
+Las claves de paso y las claves de seguridad son una excelente manera de mejorar la seguridad de tus cuentas en línea y simplificar el proceso de autenticación. Si tienes la opción de utilizar estos métodos, te recomiendo que lo hagas.
