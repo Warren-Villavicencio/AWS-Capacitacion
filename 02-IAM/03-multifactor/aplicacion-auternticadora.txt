@@ -1,0 +1,21 @@
+En este caso, la aplicación autenticadora genera un código único que cambia constantemente. Cada vez que quieras acceder a una cuenta (correo electrónico, redes sociales, banca en línea, etc.), además de tu contraseña, tendrás que introducir este código.
+
+¿Cómo funciona?
+
+Configuración: Cuando activas la autenticación de dos factores, se te mostrará un código QR o una clave secreta.
+Escaneo: Con tu aplicación autenticadora (como Google Authenticator, Microsoft Authenticator o Authy), escaneas el código QR o introduces la clave secreta.
+Generación de códigos: La aplicación comenzará a generar códigos numéricos de seis o ocho dígitos que se actualizan cada 30 segundos.
+Autenticación: Cada vez que quieras iniciar sesión, introduces tu contraseña y el código que aparece en la aplicación.
+Ejemplos de uso:
+
+Cuentas de correo electrónico: Protege tu bandeja de entrada de accesos no autorizados.
+Redes sociales: Asegura tus perfiles personales y evita que otras personas publiquen en tu nombre.
+Banca en línea: Protege tu dinero y evita transacciones no autorizadas.
+Servicios de almacenamiento en la nube: Protege tus archivos importantes.
+Aplicaciones móviles: Asegura el acceso a tus aplicaciones más sensibles.
+Ventajas:
+
+Mayor seguridad: Añade una capa extra de protección a tus cuentas.
+Facilidad de uso: Las aplicaciones autenticadoras son muy intuitivas y fáciles de configurar.
+Amplia compatibilidad: La mayoría de los servicios en línea ofrecen esta opción de seguridad.
+En resumen, la autenticación de dos factores con una aplicación autenticadora es una herramienta muy útil para proteger tus cuentas en línea. Al agregar un segundo factor de autenticación, haces que sea mucho más difícil para los hackers acceder a tu información personal.
