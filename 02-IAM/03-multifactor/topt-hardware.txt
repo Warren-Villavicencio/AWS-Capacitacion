@@ -1,0 +1,22 @@
+¿Qué es un TOTP de hardware?
+Imagina que tienes una llave única para abrir tu casa. Esa llave es como una contraseña estática, siempre la misma. Un TOTP de hardware es como tener una llave que cambia constantemente, cada pocos segundos.
+
+¿Cómo funciona?
+
+Generador de códigos: El token es un pequeño dispositivo físico que genera códigos numéricos aleatorios y únicos cada cierto tiempo.
+Sincronización: El token se sincroniza con el servicio al que te quieres conectar, por lo que ambos conocen cuál es el código correcto en cada momento.
+Autenticación: Cuando intentas acceder a tu cuenta, introduces el código generado por el token junto con tu usuario y contraseña. Si el código coincide con el que tiene el servicio, se te permite el acceso.
+¿Por qué es tan seguro?
+Unicidad: Cada código es válido solo por un tiempo muy corto, lo que dificulta enormemente que alguien más lo utilice para acceder a tu cuenta, incluso si lo interceptan.
+Facilidad de uso: Los tokens son fáciles de transportar y usar, y no requieren una conexión a internet para generar los códigos.
+Protección contra ataques: Los TOTP son muy resistentes a los ataques de phishing y otras formas de robo de credenciales.
+Ejemplos de uso:
+Banca en línea: Al acceder a tu cuenta bancaria, además de tu usuario y contraseña, debes introducir el código generado por tu token. Esto garantiza que seas tú quien está intentando acceder a tu dinero.
+Correo electrónico: Muchos servicios de correo electrónico ofrecen la opción de añadir un segundo factor de autenticación mediante un TOTP, lo que hace que tu cuenta sea mucho más segura.
+Redes sociales: Algunas redes sociales también permiten utilizar TOTP para proteger tus cuentas, especialmente si manejas información sensible o cuentas profesionales.
+Servicios en la nube: Plataformas como Google Drive o Dropbox pueden requerir un TOTP para acceder a archivos importantes.
+Ventajas de los TOTP de hardware:
+Mayor seguridad: Al ser un dispositivo físico, es más difícil de hackear que una aplicación en un smartphone.
+Autonomía: No depende de una conexión a internet para funcionar.
+Facilidad de uso: Son muy intuitivos y fáciles de configurar.
+En resumen, los TOTP de hardware son una excelente manera de agregar una capa extra de seguridad a tus cuentas en línea. Al utilizar un código que cambia constantemente, se reduce significativamente el riesgo de que alguien más pueda acceder a tu información personal.
